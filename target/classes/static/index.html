@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <br>
+    <h2 class="text-center">Shopping List Application with <b style="color: #4cae4c;">Spring Boot</b> + <b style="color: #2e6da4;">MySql</b> + <b style="color: #d43f3a;">RESTful</b></h2>
+    <hr>
+    <form method="POST" action="/add-product">
+        <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Product name">
+        </div>
+        <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add</button>
+    </form>
+    <br>
+    <a href="products" class="btn btn-info"><i class="fa fa-list-alt" aria-hidden="true"></i> Shopping List</a>
+</div>
+
+</body>
+</html>
